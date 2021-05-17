@@ -75,8 +75,9 @@ $dog ->conv();
   					<nav id="menu">
   						<ul class="links">
   							<li><a href="index.html">Home</a></li>
-  							<li><a href="#one">Rase</a></li>
-  							<li><a href="survey.html">Survey</a></li>
+  							<li><a href="index.html#one">Rase</a></li>
+  							<li><a href="survey.html">Sondaj</a></li>
+                <li><a href="table.html">Tabel</a></li>
   						</ul>
   						<ul class="actions stacked">
   							<li><a href="register.html" class="button primary fit">Register</a></li>

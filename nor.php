@@ -72,17 +72,18 @@ $dog ->conv();
 					</header>
 
           <!-- Menu -->
-  					<nav id="menu">
-  						<ul class="links">
-  							<li><a href="index.html">Home</a></li>
-  							<li><a href="#one">Rase</a></li>
-  							<li><a href="survey.html">Survey</a></li>
-  						</ul>
-  						<ul class="actions stacked">
-  							<li><a href="register.html" class="button primary fit">Register</a></li>
-  							<li><a href="login.html" class="button fit">Log In</a></li>
-  						</ul>
-  					</nav>
+            <nav id="menu">
+              <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#one">Rase</a></li>
+                <li><a href="survey.html">Sondaj</a></li>
+                <li><a href="table.html">Tabel</a></li>
+              </ul>
+              <ul class="actions stacked">
+                <li><a href="register.html" class="button primary fit">Register</a></li>
+                <li><a href="login.html" class="button fit">Log In</a></li>
+              </ul>
+            </nav>
 
 				<!-- Main -->
 					<div id="main" class="alt">
