@@ -70,16 +70,16 @@ $stmt->close();
 
 				<!-- Main -->
 					<div class="profile">
-						<h2>Profile</h2>
+						<h2>Profil</h2>
 						<div>
-							<p>Your account details are below:</p>
+							<p>Detaliile contului tau sunt:</p>
 							<table>
 								<tr>
 									<td>Username:</td>
 									<td><?=$_SESSION['name']?></td>
 								</tr>
 								<tr>
-									<td>Password:</td>
+									<td>Parola:</td>
 									<td><?=$password?></td>
 								</tr>
 								<tr>
