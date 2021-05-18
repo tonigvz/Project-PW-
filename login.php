@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'root';
 $DATABASE_PASS = '';
@@ -35,7 +34,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
 		$_SESSION['loggedin'] = TRUE;
 		$_SESSION['name'] = $_POST['username'];
 		$_SESSION['id'] = $id;
-		header("Location: http://localhost/buddy/profile.php");
+		header("Location: profile.php");
 	} else {
 
 		echo 'Incorrect username and/or password!';
